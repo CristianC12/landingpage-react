@@ -1,4 +1,4 @@
-.imagens {
+.ArtistasConfirmados_imagens {
     margin-left: 4.4%;
     margin-right: 4.4%;
     align-content: center;
@@ -9,7 +9,7 @@
     margin-top: 20px;
   }
   
-.imagens img {
+.ArtistasConfirmados_imagens img {
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.308);
     cursor: pointer;
@@ -23,4 +23,10 @@
 #gil-vigor:hover {
   opacity: 100%;
   transition: 0.8s;
+}
+
+
+#artistas {
+  position: relative;
+  top: 2vw;
 }

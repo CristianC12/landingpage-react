@@ -1,0 +1,54 @@
+.sobre {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    background-color: #ed2a44;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+    margin-top: 30px;
+  }
+  
+  #intro {
+    margin-bottom: 1em;
+    width: 90%;
+  }
+  
+  .sobre p {
+    font-family: "Bebas Neue", cursive;
+    color: #fdc41f;
+    text-align: left;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.479);
+    width: 70%;
+  }
+  
+  .sobre img {
+    margin-right: 13%;
+    width: 30%;
+  }
+  
+  .sobre ul {
+    list-style: none;
+    margin-left: 3vw;
+  }
+  
+  .sobre li :before {
+    content: "\1F37B ";
+  }
+
+  @media (max-width: 1100px) {  
+    .sobre {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .sobre img {
+      margin-right: 0;
+      margin-top: 20px;
+    }
+  }
