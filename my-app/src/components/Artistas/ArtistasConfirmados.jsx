@@ -1,10 +1,12 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 function ArtistasConfirmados() {
   return (
-    <>
-              <h1 className="titulo" id="artistas">Artistas Confirmados!</h1>
+    <section>
+      <h1 className="titulo" id="artistas">
+        Artistas Confirmados!
+      </h1>
       <div className="ArtistasConfirmados_imagens">
         <a href="https://www.instagram.com/gildovigor/" target="_blank">
           <img
@@ -24,7 +26,7 @@ function ArtistasConfirmados() {
         </a>
         <a href="https://www.instagram.com/therock/?hl=pt-br" target="_blank">
           <img
-            src="https://lh3.googleusercontent.com/e7KMxd3Ph8cf1KaCzndE_4FQbe_3UOPnLFtsduKUbMnB0tdeeIYXWUf_-NlmfuxURXHbqyGKIlvvzrpdl_3WhJ0Wz6MO2MWxsEF80kg-qU22-V0bM90e-v34mDkKSWkxrZ9FXencW57WrEE72kseF3N5HHiIqJXX2E8ZvZETwlmdqCLGF0VWlsRF3Wf-LgpNdXn4_Kbv0JVMOPRstJohbfoqXJeOzPtZ0xdy7Fqe2ZFY7LQiX5lER_xoQi8tKVGEr_9WL2Di_VQ6_883L-1HB76UZ_B8j6-ryYS0qUI77D6t00Tr71cnMHe4xoW2Z66vFmOy9W34KVUigH5_Vyj1e4HGD93qG0hQtpvRgQX-PAISqHA96qK0D4lKkjD-_aXvv2fFLuULTPCA-Wmqy5RvYqCHu0eeuvJCPvOGwjiB_TDzqtuycx0Dnlga6PXpMlrHZ9xojUmGh3VhNIRRAWYVEjQm5pPUm4UyyVsKvwqQ6tGII9lkVvEUDSLDpzFwRFBIUZnPbqkHbdVHMSPgZtbzcgQD-lJrZe-2awDTF1MyXCKUC5KO3ZD7S48ceVbe5agfFvnakC2_IZJjRmdSrTjq5QkPnQC7ffEcvYOfyi_dyVJ2cgHCp6Jxpr60kO2uEZaeKbbwkvO65QN61pX1Q1KAzZWtPwpLhV9AQ_lpMqLW-sK4d9LYhG0WQOa9fQzF7a6JcHF8uDbQIwO8aAVPgEfVgpY=w418-h627-no?authuser=0"
+            src="https://lh3.googleusercontent.com/i_moPOzONoHj0fynZCdWePcIhA3evJRnkwwRjYg-WaZV604xd2zxiXR0suvVxP20F8B1mIzU4Ixk7akTTSf8cPosSnbqCbrRG0DKutgHR6mEbeq_ahkdVO3-3KwAM4Pz6M9dOQkh4W9iwLcFqh4pwqAs_-WYIeB1s16wX-z3EIKjuSptvsaskr1DOSEckz7NK4wv7I4He9IoO6keHIpSQ61UdAWQpVxVmIRIOQZ2IIIWr_0YmOiN2jB7EN7i6did83wVwRum0Mrk5JDOzo6_qKDx9GhQYsi2qFcgO79zDL92id2WQnL-3OCmWGrEruffDW11FNUWK1fO8hz7W1pjCG0VFaEOfg83OK3MmdZzLk0n5yGH-hYbthdG7O3trTvWuQjvHfqTAisClZkOOCaPb1WjDYSSCmjZ60dAAk-lQ26W180DqjP_9euxYSHG8XAe7NtAJthG6K8rDhASYctTeH5gKF2oxgHYDGYPV_wKjiqBnbMMWx4KdN8Yf2Mf3sGxJxEfQ3iOi6L1sipOl7mlKHn4VoLbxU9m6wruCLbceuLG8kHTcTeRpE3alVgnP8Pc9wR3vRlog7wDoaEjA6cH-LnoMAk8lsxPoqt3rMXfwtXIwrzX6bu8eRZ1fSEc3RfapNSbxnJCl1eATBYJhr3HVBI-BZZUigdZhv2tlNK6IiGeJHtuGFMUTpb4YkX4TZ53MxTiBqdO8zfaE51-OXsS1mk=w418-h627-no?authuser=0"
             alt="Dwayne The Rock Johnson"
             width="95%"
             id="the-rock"
@@ -39,7 +41,7 @@ function ArtistasConfirmados() {
           />
         </a>
       </div>
-    </>
+    </section>
   );
 }
 

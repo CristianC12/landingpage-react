@@ -1,2 +1,2 @@
-import Localizacao from "./Localizacao"
+import Localizacao from './Localizacao'
 export default Localizacao;
