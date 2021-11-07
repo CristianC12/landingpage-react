@@ -1,0 +1,26 @@
+.imagens {
+    margin-left: 4.4%;
+    margin-right: 4.4%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+.imagens img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.308);
+    cursor: pointer;
+    margin: 4px;
+    opacity: 80%;
+  }
+
+#the-rock:hover,
+#fabio-melo:hover,
+#ivete-sangalo:hover,
+#gil-vigor:hover {
+  opacity: 100%;
+  transition: 0.8s;
+}
