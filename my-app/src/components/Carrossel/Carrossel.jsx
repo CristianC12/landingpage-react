@@ -1,13 +1,9 @@
 import React from "react";
 import './style.css';
-import imagem01 from './img/imagem01.png';
-import imagem01resp from './img/imagem01_responsiva.png';
-import imagem02 from './img/imagem02_responsiva.png';
-import imagem02resp from './img/imagem02_responsiva.png';
-import imagem03 from './img/imagem03_responsiva.png';
-import imagem03resp from './img/imagem03_responsiva.png';
+import fotosCarrossel from "./carrosselFoto";
 
-    
+
+
 function Carrossel() {
   return (
     <section>
@@ -22,38 +18,41 @@ function Carrossel() {
           <picture>
             <source
               media="(max-width: 999px)"
-              srcset='img/imagem02.png'
+              srcset={fotosCarrossel[1]}
             />
             <img
-              src='img/imagem02.png'
+              src={fotosCarrossel[0]}
               alt="canecas de chopp brindando"
             />
           </picture>
           <picture>
             <source
               media="(max-width: 999px)"
-              srcset='img/imagem02.png'
+              srcset={fotosCarrossel[3]}
             />
             <img
-              src='img/imagem02.png'
+              src={fotosCarrossel[2]}
               alt="comidas tradicionais alemãs"
             />
           </picture>
           <picture>
             <source
               media="(max-width: 999px)"
-              srcset='img/imagem02.png'
+              srcset={fotosCarrossel[5]}
             />
             <img
-              src='img/imagem02.png'
+              src={fotosCarrossel[4]}
               alt="dança tradicional alemã"
             />
           </picture>
         </div>
       </div>
-          <script src="carousel.js"></script>
     
     </section>
+
+    
+
+
   );
 }
 

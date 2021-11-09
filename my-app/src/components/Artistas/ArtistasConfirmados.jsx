@@ -1,6 +1,14 @@
 import React from "react";
 import "./style.css";
 
+
+ let fotosArtistas = [
+   "https://lh3.googleusercontent.com/AX-C1ZJo76NSXtQRgxyhJx0TwQ2S1o_uVdK7AY-dmj4xDxBKahuZxdzRDVI-gzx4RsFMEmC1Um_5zKfyG_PpZl5IVe5LZOQH-2RG_KvrrK4TqMrYv1Dk-QSm1c1Y6PQ8beIVnR8ngstoGglCoptsvkaEkdKahIvr7LsCS7RCMilbM2Ntp6tBMiCKj6kgsLWS7513PKffyoh7Z1MKyWTeoD9qdG4r8xwNCz9sA7OVcY6bd459TH4eBwhArRYa4nM6v1_1zx4Ntq3eRLhlmoF8UAVpOaY9zPnmFNEno5DjmEu5GV6bNZnC-iRDrReytbDyhgF02R7rSSlV7MgXM3v9jbCeG5FiPLsf2SlOZCjAiYVHEAwFr12oYcpCkQyqrv6kWsblvX19Og7qtQZUvPAsdrvDN_rJUmXNsXUwGdWZA7SCczmAW2zVY5oqZCuE42qwjUvn4-5nne36QlMC1e6tdTa8Itc9EgMa0VIb5bduR8U2QUxD33003IugMusq82ejG3eDEfoTkhRY59FFm4MOIAlxLfjUXFKkp9krCnDIOr0RjTwQWU32r_HxrWePTF1XD7NE3vw3xbFXy4oqdPizla9c4xGmFBtMoOwQtl_SwX-4N22AZ-w3OTOSQPs9fagyBGqUcmSdRqaKmPe283GneEWEEhn0kvGRultzHSoZqDYdCQAABDjc8sYbZMetr6MuB0UJ8VFb4FjEuiQB80wo837T=w418-h627-no?authuser=0",
+   "https://lh3.googleusercontent.com/FUIonC_bTpD7zOJGM8lfIcsM-d311cuNh4-nZSBK8ysCuh-D0Gd2mpEwo4zmWRmn8-xFr3MeHYibNzL8W8AzRSl0Zj57nI1JKsLlDkm9ANZZhyh4RFN8AhPXGAhWp_fiIiYxg3GEaYFzvNvx-xjRpwOs66JoOOxE1rQpdaK9IEWZ5DL3Xa8WvxMMNcjkmsxoL8LlANp9O4Z4rSTud09dY6YYPChpZvQOdm3yg_9AkNTzL9uyPjulmTSSoCdISTKz1DcFRj0QZUDMDeC5--LmkrezpudwN5sxYMOj9aE7ejhttuY39VqOCrJjB64iQftXW2N1ojUVamZkxC8aVlgNDw3E8waqyfVAfoZgxM-Mij1rsXQKzyf7H4mCC9Er79CG0JPb2mNPKhne5N2X0G94wLHCkhjcrXWv1w-q0mxkLHF_q8zKbCcKP9E77T9TyFIMfx5kzfrg8MsTnYlLl6PxR6zQ-2SBPAf6fAo1LiXwL83xFdEDeBgnsnmyQYvJIkxBJo4TCUjNGAHBaLr-dvvjygS18gM7lsJIjKxlUURAXIhaQhxd_LGtDrqzYHPTrIulU-bCA6vPBE0YMEOdIi1-0Q2NTHlpHL19Vbw-42sLZf_9tlaTMSjwiU0SrVuOuB8uanWlGNLNSV8a6P0pep9RXAzSPHeN-ZU8wZCW0SRNtk93nJlempx_6-Ds9XDpQn1jGovgGVsAOaqJBkzfoFM-0Hom=w418-h627-no?authuser=0",
+   "https://lh3.googleusercontent.com/MFm15lYYS__ZLGXd2xOGdTSkck_weev-i6GAKp7xmSSQB3cgFv--sSSwDrN0GUgfKu5A412dHfNthUbRZ_I8isL_TOkztExHJaG0HJhmQj8gHdDqo6PI1rhuK64eN3EZPeQ890JL-Hq_W12EL_FOLDKKLwQuQr5bQDLOSLQe_W97kqBTsLsdO_KMx5X-k0qqqCGhgX4x4bcIW5yZwZWKDNUAeNG_KN4JpucA3XEi0iHGoLJ-NBHZOV7RuHGaDkjD8KmoPMigdop9KKMUA3pd9hSJhl1ZjPaQ2IkXHaEv52ZZWEpg6_tuN_r262hw7Y_VrhV-ROridtlsVI0bJLE6oeArpNCky7SkEucTAlR10_QlbVrly352GT-uosNwBdbD8YihagRUXaXMkBw1UBanpxv4iCf1WcBxCaCljyh4J4k-P_60kPj4wL6mvpFX_hT59m3YaIq6orwn4F4K3v5X3peb1TrZRdHIqB7r9JSnS_1TMPNsNEFsynod4quxPXzwUAZ_rZH_53-uELl5QyIE5Y8KDZv4r8xkKHJgcsgjPYPxB8WkF2ycjmVckyy7nnwn5q0obt3N2sChY27jkwAVc3C9UXRec0OzrZgdcsvdqYgpuCSPW21n1F2PY0BxH2LJ7-QZcjoB_3OTLVqoToFBTk3k00el5iyB39XU78Au1L7-_jm8a_NcAgejKq3ug1TW4R4s0tEw--wOoUDXPAT9o411=w418-h627-no?authuser=0",
+   "https://lh3.googleusercontent.com/X6nkZpz3mc6KruNQo06nysN2Rltv8b8LdGfCY2N1pfAz1tG5WwcT7pzMpF9NaADqO9vM5zqDWXsWANU4_e3jJwe__MFJfTCXBc9iG77_YAcAvy2gA60l2YPK3pBR1r0neUvDxzdl1gOQNrdwfMeuUSAckCZ2QdggtUdULVj2wZF153ZNFdLOubGKhv5B6Qv5esl_nShzmUq20FXQT83fAOX8n5uwWV6ltb3Ix_4u8DpHwlfcp3De3Kv6k5ghKuqGGvECJLgTJmll9Qc2fGsQzcdHYZYwo_9YqufS8NV3c71Y7WY7TrohG3cAumf5rhFgY8kuBe0ca871z3l27u0-lBtaOpllTkgEO6wzZIqXZ6GqdhWRBEdlNIhAqX-De6GCJM4M9SVUqVcUT2ITdFXC0kLO90_eADyvlC2Q2uZnDNP6XaIkho3NiN_hob8zdxOcIx5AU-fizMzUSFD4IIIWwWHwtafAzMp8HO1EmbzWLTLfV3LB9Ee-Xp3udB996NT_XUqO66C9Xgu_bN29rhtfzOzOidtu93tdjF0dZnmxm1RDVDN9tIYVBhcmqNJ5r9TxT0fj_JKPJx3nFV3NbMU2iH5Q6diteWuQ-4GJOR7LzzM6aey6rvJ2NSlmsbMT08xkxMFUbbRfHVtkQUTzSsc5DAJR2AHCZHZ9AkdzM7eWF780BAiEZ-PKQYDzKZxx3ESnNXYYV1mkbqli1kMtb80ATXCo=w418-h627-no?authuser=0",
+ ];
+
 function ArtistasConfirmados() {
   return (
     <section>
@@ -10,7 +18,7 @@ function ArtistasConfirmados() {
       <div className="ArtistasConfirmados_imagens">
         <a href="https://www.instagram.com/gildovigor/" target="_blank">
           <img
-            src="https://lh3.googleusercontent.com/rQYcUGYKWlJw1HR4gUnz2RvNKHd6KefkR5M3BcoDuJRuxN4uA09Jn2Ew_t4XamJRHHF0P3h7J_yHjSL2aUhRQrsiG15qPeQKtLRSApxC772mQofQfpGp1kYnX_kxFI1m9vTBao7IOLGbMRDQcvozfgtEiz0qkJPxXFSii5_i2PHdBVRERp4exVQ88D9Xb_SmjrQrM0PWHjACbr0jLU863zvkdK-Mo7OBjbNY326-u9mUmkSO6I_b7wChdifLGdt_dsQSQWkqaHqG-WhbI8mvUtR_f7pCiUixndypOlz2vUMT2WIJTZldcqoxd9UBGJLUr8Yem16Pef5AJzSpGgl2q_WKmiTn60bgYHiF0CKhSZ6PKm6DmJwAdPKfVoZcE48jrlKgnHe4aXt1ggQwMbjng9t1w5FynNVkQn51pzVZvDWtCW6VPH8CHYLhOdBVL33YLyX5obo2RKqlaccQz_GWKaJ-32DKSb8cWU24dnXGWLgVHSzZliX6wrINNVmvqYkO7eO4wldPykzOl3rxrCdy8BGNSUtv6uLoYSQPVLizX498JAhzSN6O904nXonVuGY_Rgk4XTw-nQ3ZkkTVp6qpZGU7HAWVYSBnZnmrbXC7anBjIJvcb61YA04620lEyoi63nKFsQE_7yqqgX7il80dxJlWoTJglHF22uMLdtcytZL-DtppdzfBkmO506R-CeDP7X8Cekw7ijYERFyg7pM-qps=w418-h627-no?authuser=0"
+            src={fotosArtistas[0]}
             alt="Gil do Vigor"
             width="95%"
             id="gil-vigor"
@@ -18,7 +26,7 @@ function ArtistasConfirmados() {
         </a>
         <a href="https://www.instagram.com/pefabiodemelo/" target="_blank">
           <img
-            src="https://lh3.googleusercontent.com/2XNF5GSdrejIGvWHzwj_Az_aIZ3GiCShfSKi-dcqDTb_oqmwGUVqtuwKMmUIbeOoeqGVdxYh3see8C_xucY6NKhuA-VTqBEIzLzp-i9zbwRj8C9pO-x8xbLOIJb2EGeTXtJYiN1IxJAda1nVc3MsfZ0CK3nB53MXbP-Qfidah7wXKgse06fbnXzQrulUpY4LlangVo91ELITk-q3uJqomoJTXZeRQhwPXdsQPh14KyLEExgBLjR1OGmBCb1_VXw1ET66xbzqDY-7Uk4gmWNlXGm2v9BzGBuHH25AU-4elt5ZZYN-bSYjQkI3EBzTxwqAPc81_QluShCEL0KpidG-fYN-1dtivAs0Yhv7K3d03OqGp7DXVVNCWElOUM7wr2nCIL96NI_xb1U4Sj4ZBZjdcx2d-xBAnk4b0yjNt2mjyPfrhF5lwbrcE5_ejGxQpgev6oEHYA52SysIKmImo3kzzzo82SaGuaBpIuDwrB_pPzWTTodOGXRkPHKRuuK5wTZSf4-CZwG9Qlt6glBcZ7VB1Er8PIpU09y0VCnttYBjDCCvk5wI8sMkidytZjOBaHKP_B_7WfBYoFz8YkJgVB_KiLYiEv7w-YPVQsEUT8hZTa42uW0v0cxeh09TbMHYxW3qweeJxV_U1wR7XlTCiOWYJeB8UOiaMQk7TjsnF0d9wUAeLpELzaHd1LBWnCUreiNHUFaq1uiW0vBtvM9F9_f5Y5g=w418-h627-no?authuser=0"
+            src={fotosArtistas[1]}
             alt="Padre Fábio de Mello"
             width="95%"
             id="fabio-melo"
@@ -26,7 +34,7 @@ function ArtistasConfirmados() {
         </a>
         <a href="https://www.instagram.com/therock/?hl=pt-br" target="_blank">
           <img
-            src="https://lh3.googleusercontent.com/i_moPOzONoHj0fynZCdWePcIhA3evJRnkwwRjYg-WaZV604xd2zxiXR0suvVxP20F8B1mIzU4Ixk7akTTSf8cPosSnbqCbrRG0DKutgHR6mEbeq_ahkdVO3-3KwAM4Pz6M9dOQkh4W9iwLcFqh4pwqAs_-WYIeB1s16wX-z3EIKjuSptvsaskr1DOSEckz7NK4wv7I4He9IoO6keHIpSQ61UdAWQpVxVmIRIOQZ2IIIWr_0YmOiN2jB7EN7i6did83wVwRum0Mrk5JDOzo6_qKDx9GhQYsi2qFcgO79zDL92id2WQnL-3OCmWGrEruffDW11FNUWK1fO8hz7W1pjCG0VFaEOfg83OK3MmdZzLk0n5yGH-hYbthdG7O3trTvWuQjvHfqTAisClZkOOCaPb1WjDYSSCmjZ60dAAk-lQ26W180DqjP_9euxYSHG8XAe7NtAJthG6K8rDhASYctTeH5gKF2oxgHYDGYPV_wKjiqBnbMMWx4KdN8Yf2Mf3sGxJxEfQ3iOi6L1sipOl7mlKHn4VoLbxU9m6wruCLbceuLG8kHTcTeRpE3alVgnP8Pc9wR3vRlog7wDoaEjA6cH-LnoMAk8lsxPoqt3rMXfwtXIwrzX6bu8eRZ1fSEc3RfapNSbxnJCl1eATBYJhr3HVBI-BZZUigdZhv2tlNK6IiGeJHtuGFMUTpb4YkX4TZ53MxTiBqdO8zfaE51-OXsS1mk=w418-h627-no?authuser=0"
+            src={fotosArtistas[2]}
             alt="Dwayne The Rock Johnson"
             width="95%"
             id="the-rock"
@@ -34,7 +42,7 @@ function ArtistasConfirmados() {
         </a>
         <a href="https://www.instagram.com/ivetesangalo/" target="_blank">
           <img
-            src="https://lh3.googleusercontent.com/1qojvd4UOapa8roNll8Sa7eDoP1cPq6YchCxW9e2z8FUVralqe_tCtXfwUO2MB1ZwPsmY3qr1pUCBGbM38WWz01Mk2UuuwPsSKny3-xifiMAlRRxA47rAU9qaisqq5qxzbndlt0KCjCbCJNuHjslmiBDb4-7e8vZ-0nmc5-K_C04DKR-OWV8pdFnT51hh1ksPwVn3Uz1lz7qvSBZmf8e6dLys6zjBJqbAlIFr89y8jDIPZYt8Tuiz7XVBbqkTEn7M8-7G6w3_7XrZ4J5n7sx9-maG2m7VHlrF8Q0JDj3JaTEWTm9OUTQpOacqTQQ-WdGrBc9khRvbNIQaBnhG1x9zaeBcDlrOYTIDgAWhFBDcijNPA2nRl36EsLfjK2Ch1zxyjMnS3gCBxmUGfB3NypyywaIlthyzzFs_RTWXN-ire5xZtUnWyzZS1CStYhTHm0IpJ4yBzMTZTPDdSiCl0sSVfXgHtl15xpNjPzPduvOe4_k1FbHItlfBW41FZMcs1JkMAizyZEB1rwQm0e1f8P-RX40oPfB3W16z_uZuyyXJspSjP6dhFFYuYneZj5oTjUpvs2pJSCKmyDKzgDTKlfgaA0wj4i6S2-Yrw_n-31tLeM5_Q656MT98FiPMvGWxgBLP9FLL8LGj-pbCA6L54G9bVA3jPZaM2-1LUhbhFstj0_q4wnTyg9nuVGkZ2cikN_UrYUORGHdXUSSgJF9_iHlxEI=w418-h627-no?authuser=0"
+            src={fotosArtistas[3]}
             alt="Ivete Sangalo"
             width="95%"
             id="ivete-sangalo"
