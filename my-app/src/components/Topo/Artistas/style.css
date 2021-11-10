@@ -13,9 +13,10 @@
     border-radius: 20px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.308);
     cursor: pointer;
-    margin: 4px;
     opacity: 80%;
+    
   }
+  
 
 #the-rock:hover,
 #fabio-melo:hover,
@@ -23,7 +24,9 @@
 #gil-vigor:hover {
   opacity: 100%;
   transition: 0.8s;
+  transform: scale(1.03);
 }
+
 
 
 #artistas {

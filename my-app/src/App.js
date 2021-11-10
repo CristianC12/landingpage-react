@@ -1,16 +1,17 @@
 import "./App.css";
-import ArtistasConfirmados from "./components/Artistas";
-import SobreNos from "./components/SobreNos";
-import Carrossel from "./components/Carrossel";
 import FundoPagina from "./components/FundoPagina";
+import Topo from "./components/Topo/Topo";
+import Meio from "./components/Meio/Meio";
+import Bottom from "./components/Bottom/Bottom";
 
 function App() {
   return (
     <>
       <FundoPagina />
-      <ArtistasConfirmados />
-      <SobreNos />
-      <Carrossel />
+      <Topo />
+      <Meio />
+      <Bottom />
+
     </>
   );
 }

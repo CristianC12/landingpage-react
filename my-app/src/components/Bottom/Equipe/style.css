@@ -1,0 +1,83 @@
+.time a {
+    text-decoration: none;
+  }
+  
+  #titulo-nome {
+    margin-top: 10vw;
+  }
+  
+  #sub-nome {
+    margin-bottom: 3%;
+  }
+  
+  .time {
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .membro {
+    width: 20.5%;
+    transition: 0.5s;
+    border-radius: 40px;
+    opacity: 0.8;
+    padding: 1%;
+  }
+  
+  .membro-nome {
+    display: inline-block;
+    width: 20.5%;
+    transition: 0.5s;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: "Bebas Neue", cursive;
+    color: #fdc41f;
+    font-size: 35px;
+    background-color: #26001e;
+  }
+  
+  .membro-nome:hover {
+    color: #ed2a44;
+    transform: scale(1.03);
+  }
+  
+  .membro-nome::before {
+    content: "\1F37B ";
+  }
+  
+  .time-nome {
+    background: #26001e;
+    opacity: 0.8;
+  }
+  
+  .membro:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  #titulo-video{
+    margin-top: 80px;
+  }
+  .video {
+  margin-top: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .video iframe {
+    margin-top: 30px;
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  
+  .video h2 {
+    padding-bottom: 2%;
+  }
