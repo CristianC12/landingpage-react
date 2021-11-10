@@ -1,0 +1,18 @@
+footer {
+    text-align: center;
+    background-color: #26001e;
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 1em;
+  }
+  
+  .rodape-img {
+    width: 100%;
+  }
+  
+  .copyright {
+    color: #ffffff;
+    font-family: bebas Neue, cursive;
+    font-size: 20px;
+    margin: 0px 0 0;
+  }

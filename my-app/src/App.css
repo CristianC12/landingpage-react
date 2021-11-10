@@ -1,17 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@fontface {
+  font-family: Lato;
+  src: url(https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap);
+}
+
+@fontface {
+  font-family: Cookie;
+  src: url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
+}
+
 .titulo {
   font-family: "Bebas Neue", cursive;
   color: #fdc41f;
   text-align: center;
   font-size: 50px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
-  margin-top: 30px;
+  margin-top: 3vw;
 }
 
 .subtitulo {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Cookie", cursive;
   color: #fdc41f;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
 }
 
@@ -20,43 +33,9 @@
   background-color: #26001e;
 }
 
-@media (max-width: 1100px) {
-  .imagens {
-    width: 300px;
-    display: list-item;
-    margin-left: auto;
-    margin-right: auto;
-    list-style: none;
-  }
-  .sobre img {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .sobre {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .enviar {
-    font-size: 20px;
-    width: 40%;
-    margin: 2px 2px 2px 2px;
-  }
-
-  .membro-nome {
-    font-size: 12px;
-  }
-
-  .video iframe {
-    margin-top: 30px;
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
+@media (max-width: 1100px) { 
+  
+  .titulo{
+    margin-top: 70px;
   }
 }
-
-
-

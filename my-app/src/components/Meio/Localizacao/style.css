@@ -6,4 +6,16 @@
     margin-top: 30px;
     z-index: 1;
   }
+
+  .mapa iframe {
+    width: 90%;
+    height: 110vw;
+  }
   
+  @media (min-width: 1000px) {
+
+    .mapa iframe {
+      width:90%;
+      height:34vw;
+    }
+  }
