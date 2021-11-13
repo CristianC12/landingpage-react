@@ -21,8 +21,8 @@
 #fabio-melo:hover,
 #ivete-sangalo:hover,
 #gil-vigor:hover {
-  border-radius: 5px;
-  transition: 0.4s;
+  transition: 1s;
+  margin: 2%;
   opacity: 1;
 }
 
