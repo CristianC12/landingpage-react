@@ -1,11 +1,11 @@
-import Carrossel from "./Carrossel/Carrossel";
 import SobreNos from "./SobreNos/SobreNos";
 import Localizacao from "../Meio/Localizacao/Localizacao"
+import CarouselContainer from "./Carrossel/carousel";
 
 function Meio() {
   return (
     <>
-      <Carrossel />
+      <CarouselContainer />
       <SobreNos />
       <Localizacao />
     </>

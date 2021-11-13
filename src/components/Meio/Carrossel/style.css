@@ -1,34 +1,6 @@
-.carrossel {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    margin: 30px 5%;
-    min-height: 80vh;
-    box-sizing: border-box;
-    border-radius: 20px;
-    background-color: #00000054;
-    overflow: hidden;
-    height: auto;
-    width: 90%;
-  }
-  
-  .container_Carrossel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-  }
-  
-  .carrossel img {
-    object-fit: cover;
-    width: 90vw; /* mudar no carousel.js também */
-  }
-  
-  @media (max-width: 1100px) {
-    .carrossel {
-      display: block;
-      width: 90%;
-      align-items: center;
-      justify-content: center;
-      min-height: 0;
-    }
-  }
+
+.center {
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 20px;
+}

@@ -3,10 +3,10 @@ import "./style.css";
 
 
  let fotosArtistas = [
-   "https://i.imgur.com/xV3sXjj.png",
-   "https://i.imgur.com/nVljN1Q.png",
-   "https://i.imgur.com/CzNp87S.png",
-   "https://i.imgur.com/5Jb3T2m.png"
+   "https://i.imgur.com/xV3sXjj.png", //gil do vigor
+   "https://i.imgur.com/nVljN1Q.png", //Pe fabio de melo
+   "https://i.imgur.com/CzNp87S.png", //The rock
+   "https://i.imgur.com/5Jb3T2m.png"  //Ivete sangalo
  ];
 
 function ArtistasConfirmados() {

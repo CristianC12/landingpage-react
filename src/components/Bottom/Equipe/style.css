@@ -60,9 +60,6 @@
   
   .membro:hover {
     opacity: 1;
-    transform: scale(1.1);
-    padding-left: 2%;
-    padding-right: 2%;
   }
   
   #titulo-video{

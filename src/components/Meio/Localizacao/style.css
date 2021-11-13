@@ -9,13 +9,19 @@
 
   .mapa iframe {
     width: 90%;
-    height: 110vw;
+    height: 90vw;
   }
   
   @media (min-width: 1000px) {
 
     .mapa iframe {
-      width:90%;
-      height:34vw;
+      height:15vw;
+    }
+  }
+
+  @media (min-width: 1500px) {
+
+    .mapa iframe {
+      height:25vw;
     }
   }

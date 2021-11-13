@@ -25,6 +25,7 @@
     font-size: 20px;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.479);
     width: 70%;
+    margin: 1vw, 0;
   }
   
   .sobre img {
@@ -51,7 +52,14 @@
     .sobre img {
       margin-right: 0;
       margin-top: 20px;
+      width: 90%;
+      margin-left: 5%;
     }
+
+    .sobre p {
+      font-size: 20px;
+      width: 80%;
+    };
 
     .sobre img {
       width: 80%;
@@ -63,6 +71,22 @@
       width: 80%;
       margin-left: 10%;
       margin-right: 10%;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .sobre p {
+      font-size: 26px;
+      width: 70%;
+      margin: 1vw, 0;
+    }
+  }
+
+  @media (min-width: 2200px) {
+    .sobre p {
+      font-size: 40px;
+      width: 70%;
+      margin: 1vw, 0;
     }
   }
 

@@ -7,11 +7,14 @@
   padding: 0;
 }
 
-a {
+
+#item-nav{
   color: #fdc41f;
   text-decoration: none;
   transition: 0.3s;
   text-transform: uppercase;
+  position:relative;
+  top: 0.7vw;
 }
 
 a:hover {
@@ -34,7 +37,7 @@ nav {
 
 nav img {
   position: relative;
-  top: 2px;
+  top: 0px;
 }
 
 .nav-list {
@@ -47,7 +50,7 @@ nav img {
   margin-left: 32px;
 }
 
-.mobile-menu {
+.mobile-menu2 {
   display: none;
   cursor: pointer;
 }

@@ -1,2 +1,1 @@
-import Carrossel from "./Carrossel";
-export default Carrossel;
+import 'bootstrap/dist/css/bootstrap.min.css';

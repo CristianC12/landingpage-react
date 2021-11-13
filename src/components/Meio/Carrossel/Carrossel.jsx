@@ -1,8 +1,14 @@
-import React from "react";
+/*import React from "react";
 import './style.css';
-import fotosCarrossel from "./carrosselFoto";
 
-
+var fotosCarrossel = [
+  "https://i.imgur.com/LcPw2BP.png",
+  "https://i.imgur.com/UsXOf3F.png",
+  "https://i.imgur.com/zwfc5bi.png",
+  "https://i.imgur.com/dl3IzIX.png",
+  "https://i.imgur.com/hnQfTuP.png",
+  "https://i.imgur.com/cXZbBsX.png"
+]
 
 function Carrossel() {
   return (
@@ -56,4 +62,4 @@ function Carrossel() {
   );
 }
 
-export default Carrossel;
+export default Carrossel;*/
