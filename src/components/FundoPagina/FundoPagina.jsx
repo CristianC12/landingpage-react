@@ -1,5 +1,5 @@
 import React from "react";
-import template from "./img/template.mp4";
+import backgroundvid from './img/backgroundvid.mp4'
 
 function FundoPagina() {
   return (
@@ -19,7 +19,7 @@ function FundoPagina() {
           zIndex: "-1",
         }}
       >
-        <source src={template} type="video/mp4" />
+        <source src={backgroundvid} type="video/mp4" />
       </video>
     </section>
   );

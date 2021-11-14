@@ -12,7 +12,6 @@ function App() {
       <Topo />
       <Meio />
       <Bottom />
-
     </>
   );
 }

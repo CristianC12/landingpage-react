@@ -1,6 +1,36 @@
-
 .center {
-  width: 90%;
-  margin-left: 5%;
-  border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.carrosselFundo {
+    background-color: white;
+    padding-bottom: 5vw;
+    margin-top: 5vw;
+    padding-top: 10vw;
+}
+
+#galeria {
+    position: absolute;
+    margin-left: 25%;
+    width: 50%;
+    color: #eec338;
+    font-size: 200px;
+    font-weight: bolder;
+    z-index: 4;
+    top: 50vw;
+}
+
+#subGaleria {
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    top: 60vw;
+    z-index: 5;
 }

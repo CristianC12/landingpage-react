@@ -10,18 +10,18 @@
       resize: none;
   }
   
-  form {
+  .venda {
     margin: 40px 0;
   }
   
   .input-padrao {
     display: flex;
-    margin: 5px 20%;
+    margin: 5px 25%;
     padding: 10px 25px;
     width: 50%;
   }
   
-  label {
+  .labelFormulario  {
     font-family: "Bebas Neue", cursive;
     font-size: 25px;
     color: #fdc41f;
@@ -35,7 +35,7 @@
     color: #fdc41f;
     font-size: 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 500px;
     transition: 1s all;
     cursor: pointer;
     font-family: "Bebas Neue", cursive;
@@ -52,5 +52,12 @@
       font-size: 20px;
       width: 40%;
       margin: 2px 2px 2px 2px;
+    }
+
+    .input-padrao {
+      display: flex;
+      margin: 5px 25%;
+      padding: 10px 25px;
+      width: 50%;
     }
   }

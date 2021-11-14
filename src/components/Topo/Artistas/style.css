@@ -1,48 +1,54 @@
 .ArtistasConfirmados_imagens {
-  margin-left: 4.4%;
-  margin-right: 4.4%;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  margin-top: 20px;
+    margin-top: 10vw;
+    margin-left: 4.4%;
+    margin-right: 4.4%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
 
 .ArtistasConfirmados_imagens img {
-  border-radius: 20px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.308);
-  cursor: pointer;
-  opacity: 80%;
-  margin-top: 3vw;
+    cursor: pointer;
+    margin-top: 3vw;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 #the-rock:hover,
 #fabio-melo:hover,
 #ivete-sangalo:hover,
 #gil-vigor:hover {
-  transition: 1s;
-  margin: 2%;
-  opacity: 1;
+    transition: 1s;
+    margin: 2%;
+    opacity: 1;
 }
 
 #artistas {
-  position: relative;
-  top: 2vw;
+    position: absolute;
+    margin-top: 5vw;
+    font-size: 100px;
+    width: 72%;
+    margin-left: 14%;
+    top: 1vw;
+    color: #EEC338;
+    font-weight: bolder;
 }
 
 @media (max-width: 1100px) {
-  .ArtistasConfirmados_imagens {
-    display: list-item;
-    margin-left: auto;
-    margin-right: auto;
-    list-style: none;
-  }
-
-  #the-rock,
-  #fabio-melo,
-  #ivete-sangalo,
-  #gil-vigor {
-    opacity: 1;
-  }
+    .ArtistasConfirmados_imagens {
+        display: list-item;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+    }
+    #the-rock,
+    #fabio-melo,
+    #ivete-sangalo,
+    #gil-vigor {
+        opacity: 1;
+    }
 }

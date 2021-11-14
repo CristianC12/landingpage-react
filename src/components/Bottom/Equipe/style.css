@@ -25,22 +25,25 @@
   
   .membro {
     width: 20.5%;
-    transition: 0.5s;
-    border-radius: 40px;
-    opacity: 1;
-    padding: 1%;
+    transition: 1s;
+    border-radius: 400px;
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 20px;
   }
   
   .membro-nome {
     display: inline-block;
-    width: 20.5%;
+    width: 30%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2px;
     transition: 0.5s;
-    padding-left: 1%;
-    padding-right: 1%;
     font-family: "Bebas Neue", cursive;
     color: #fdc41f;
     font-size: 35px;
     background-color: #26001e;
+    border-radius: 100px;
   }
   
   .membro-nome:hover {
@@ -53,19 +56,15 @@
     background-image: url('github.svg');
   }
   
-  .time-nome {
-    background: #26001e;
-    opacity: 0.8;
-  }
-  
   .membro:hover {
     opacity: 1;
+    transform: rotate(720deg);
   }
   
   #titulo-video{
     margin-top: 80px;
   }
-  .video {
+  .video2 {
   margin-top: 30px;
   display: flex;
   align-content: center;
@@ -74,11 +73,11 @@
   text-align: center;
   }
   
-  .video iframe {
+  .video2 iframe {
     margin-top: 30px;
     width: 40%;
-    padding-left: 30%;
-    padding-right: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
   }
   
   .video h2 {
@@ -94,6 +93,8 @@
   .membro {
     border-radius: 10px;
     opacity: 1;
+    width: 45%;
+
   }
 
 
@@ -102,7 +103,7 @@
     background-image: url('github2.svg');
   }
 
-  .video iframe {
+  .video2 iframe {
     margin-top: 30px;
     width: 90%;
     padding-left: 5%;

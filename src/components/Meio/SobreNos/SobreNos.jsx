@@ -3,9 +3,9 @@ import "./style.css";
 
 function SobreNos() {
   return (
-    <>
-      <h1 class="titulo" id="sobre">
-        Sobre nós
+    <section className="sobreFundo">
+      <h1 class="titulo sobreTitulo" id="sobre">
+        Sobre nós:
       </h1>
       <div class="sobre">
         <ul>
@@ -32,7 +32,7 @@ function SobreNos() {
           alt="Logotipo"
         />
       </div>
-    </>
+    </section>
   );
 }
 

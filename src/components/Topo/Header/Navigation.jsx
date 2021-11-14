@@ -2,13 +2,11 @@ import React from "react";
 import "./style.css";
 import "./navbar.js";
 
-let logoMenu = ["https://i.imgur.com/PDsywmP.png"]
-
 function Navigation() {
   return (
     <section>
         <nav>
-            <a href="#" className="logoMenu" ><img src={logoMenu[0]} width="120px"/></a>
+            <a href="#" className="logoMenu" ><img src="https://i.imgur.com/XkcZ0LJ.png" width="240px"/></a>
             <div className="mobile-menu2">
                 <div className="line1"></div>
                 <div className="line2"></div>
