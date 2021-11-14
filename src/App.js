@@ -8,10 +8,10 @@ import Bottom from "./components/Bottom/Bottom";
 function App() {
   return (
     <>
-      <FundoPagina />
-      <Topo />
-      <Meio />
-      <Bottom />
+        <FundoPagina />
+        <Topo />
+        <Meio />
+        <Bottom />
     </>
   );
 }

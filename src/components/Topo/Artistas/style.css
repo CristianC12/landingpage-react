@@ -1,7 +1,9 @@
 .ArtistasConfirmados_imagens {
     margin-top: 10vw;
-    margin-left: 4.4%;
-    margin-right: 4.4%;
+    position: relative;
+    top: 30px;
+    margin-left: 2.2%;
+    margin-right: 2.2%;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -39,11 +41,27 @@
 }
 
 @media (max-width: 1100px) {
+
+    #artistas {
+        position: absolute;
+        margin-top: 5vw;
+        font-size: 55px;
+        margin-left: 15%;
+        width: 70%;
+        top: 20vw;
+        color: #EEC338;
+        font-weight: bolder;
+    }
+
     .ArtistasConfirmados_imagens {
+        top: 20vw;
+        position: relative;        
+        margin-top: 40vw;
         display: list-item;
         margin-left: auto;
         margin-right: auto;
         list-style: none;
+        
     }
     #the-rock,
     #fabio-melo,
