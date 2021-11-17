@@ -3,23 +3,23 @@ import "./style.css";
 
 
  let fotosArtistas = [
-   "https://i.imgur.com/Bz10xJH.png", //gil do vigor
-   "https://i.imgur.com/AMyTFcB.png", //Pe fabio de melo
-   "https://i.imgur.com/sjpVpC9.png", //The rock
-   "https://i.imgur.com/MWod138.png"  //Ivete sangalo
+   "https://i.imgur.com/JucE9TI.png", //feer posser
+   "https://i.imgur.com/yziSSF6.png", //Pe fabio de melo
+   "https://i.imgur.com/uOXNHEo.png", //The rock
+   "https://i.imgur.com/u5mbWFN.png"  //Dianho
  ];
 
 function ArtistasConfirmados() {
   return (
-    <section>
-      <h1 className="titulo" id="artistas">
+    <section className="artistas">
+      <h1 className="titulo tituloArtistas">
         Artistas Confirmados!
       </h1>
       <div className="ArtistasConfirmados_imagens">
-        <a href="https://www.instagram.com/gildovigor/" target="_blank">
+        <a href="https://www.instagram.com/jeanpaulo_campos/" target="_blank">
           <img
             src={fotosArtistas[0]}
-            alt="Gil do Vigor"
+            alt="Cirilo"
             width="95%"
             id="gil-vigor"
           />
@@ -40,10 +40,10 @@ function ArtistasConfirmados() {
             id="the-rock"
           />
         </a>
-        <a href="https://www.instagram.com/ivetesangalo/" target="_blank">
+        <a href="https://www.instagram.com/dianhooficial/" target="_blank">
           <img
             src={fotosArtistas[3]}
-            alt="Ivete Sangalo"
+            alt="Dianho"
             width="95%"
             id="ivete-sangalo"
           />

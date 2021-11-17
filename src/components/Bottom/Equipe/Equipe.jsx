@@ -13,7 +13,7 @@ function Equipe() {
         <section className="time" id="equipe">
         
         <h1 className="titulo" id="titulo-nome">Equipe</h1>
-        <h2 id="sub-nome">squad 8 - #TEUFUTURO</h2>
+        <h2 id="sub-nome">Squad 8 - #TeuFuturo</h2>
         
         <a href="https://www.linkedin.com/in/gabriel-de-moura-jank-209b18218/" target="_blank">
           <img src={membroFoto[0]} className="membro" alt="foto de Gabriel Jank"/>
@@ -45,11 +45,11 @@ function Equipe() {
         </a>
         </div>
 
-        <h1 className="titulo" id="titulo-video">Explicação</h1>
+{/*         <h1 className="titulo" id="titulo-video">Explicação</h1>
         <h2 className="subtitulo">Como montamos a LandingPage?</h2>
         <div className="video2">
           <iframe height="315" src="https://www.youtube.com/embed/93d7H5XlwsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        </div> */}
       </section>
     );
 }

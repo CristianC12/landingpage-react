@@ -1,69 +1,59 @@
+
+/*      bootstrap       */
 .center {
     width: 90%;
     margin-left: 5%;
     border-radius: 20px;
 }
 
-.carrosselFundo {
+/* Carrossel estrutura */
+
+#galeria{
+    position: relative;
+    top: -14vw;
+}
+
+.carrosselDeFotos {
     background-color: white;
     padding-bottom: 5vw;
     margin-top: 5vw;
     padding-top: 10vw;
 }
 
-#galeria {
+.tituloCarrossel {
     position: absolute;
     margin-left: 25%;
     width: 50%;
     color: #eec338;
-    font-size: 200px;
+    font-size: 15vw;
     font-weight: bolder;
     z-index: 4;
     top: 50vw;
 }
 
-#subGaleria {
-    position: absolute;
-    width: 70%;
-    margin-left: 15%;
-    color: black;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    font-size: 55px;
-    font-style: italic;
-    top: 60vw;
-    z-index: 5;
+.fraseCarrossel h3 {
+    color: white;
+    font-family: 'Dancing Script';
+    text-shadow: 2px 2px 4px black;
+    font-size: 4vw;
 }
-
 @media (max-width: 999px) {
-    #galeria {
-        position: absolute;
-        margin-left: 15%;
-        width: 70%;
-        color: #eec338;
-        font-size: 100px;
-        font-weight: bolder;
-        z-index: 4;
-        top: 637vw;
-    }
 
-    #subGaleria {
-        position: absolute;
-        width: 70%;
-        margin-left: 15%;
-        color: black;
-        font-family: 'Dancing Script', cursive;
-        text-align: center;
-        font-size: 25px;
-        font-style: italic;
-        font-weight: bold;
-        top: 667vw;
-        z-index: 5;
-    }
-    .carrosselFundo {
+    .carrosselDeFotos {
         background-color: white;
         padding-bottom: 5vw;
         margin-top: 40vw;
         padding-top: 30vw;
+    }
+
+    .tituloCarrossel {
+        position: absolute;
+        margin-left: 10%;
+        width: 80%;
+        color: #eec338;
+        font-size: 30vw;
+        font-weight: bolder;
+        z-index: 4;
+        top: 637vw;
     }
 }

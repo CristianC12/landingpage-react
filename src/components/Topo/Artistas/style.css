@@ -1,7 +1,24 @@
+/* .artistas{
+    background-color: #ED2A45;
+} */
+
+
+.tituloArtistas{
+    position: absolute;
+    padding-top: 2vw;
+    font-size: 5vw;
+    width: 72%;
+    top: 1vw;
+    color: white;
+    background-color: #ED2A45;
+    width: 100%;
+    font-weight: bolder;
+}
+
 .ArtistasConfirmados_imagens {
     margin-top: 10vw;
     position: relative;
-    top: 30px;
+    top: vw;
     margin-left: 2.2%;
     margin-right: 2.2%;
     align-content: center;
@@ -14,10 +31,9 @@
 .ArtistasConfirmados_imagens img {
     cursor: pointer;
     margin-top: 3vw;
-    border-bottom: 4px solid white;
-    border-right: 4px solid white;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 1vw;
+    background-color: #ED2A45;
+    opacity: 0.9;
 }
 
 #the-rock:hover,
@@ -29,28 +45,17 @@
     opacity: 1;
 }
 
-#artistas {
-    position: absolute;
-    margin-top: 5vw;
-    font-size: 100px;
-    width: 72%;
-    margin-left: 14%;
-    top: 1vw;
-    color: #EEC338;
-    font-weight: bolder;
-}
-
 @media (max-width: 1100px) {
 
-    #artistas {
+    .tituloArtistas {
         position: absolute;
-        margin-top: 5vw;
         font-size: 55px;
-        margin-left: 15%;
-        width: 70%;
-        top: 20vw;
-        color: #EEC338;
+        top: 0vw;
         font-weight: bolder;
+    }
+
+    .ArtistasConfirmados_imagens img {
+        opacity: 1;
     }
 
     .ArtistasConfirmados_imagens {

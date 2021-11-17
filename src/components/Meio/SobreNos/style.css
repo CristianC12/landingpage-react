@@ -1,3 +1,30 @@
+#sobre {
+    position: relative;
+    top: -4vw;
+}
+
+.sobreNos {
+    background-color: #ED2A45;
+    margin-top: -5vw;
+    padding-bottom: 5vw;
+}
+
+.sobreTitulo {
+    padding-top: 2vw;
+    font-size: 9vw;
+    text-align: left;
+    margin-left: 10vw;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+#intro {
+    margin-bottom: 1em;
+    width: 90%;
+    display: inline-block;
+}
+
 .sobre {
     padding: 5px;
     width: auto;
@@ -8,44 +35,22 @@
     align-items: center;
     border-radius: 20px;
     margin-top: 30px;
-    font-size: 100px;
-}
-
-.sobreTitulo {
-    font-size: 160px;
-    position: absolute;
-    margin-left: 10%;
-    top: 115vw;
-    z-index: 1;
-    color: white;
-}
-
-.sobreFundo {
-    background-color: #ED2A45;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-}
-
-#intro {
-    margin-bottom: 1em;
-    width: 90%;
-    display: inline-block;
-    margin-top: 100px;
+    font-size: 8vw;
 }
 
 .sobre p {
     font-family: 'Lato';
     color: #fdc41f;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.7vw;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.479);
     width: 70%;
     margin: 1vw, 0;
 }
 
 .sobre img {
-    margin-right: 13%;
-    width: 30%;
+    margin-right: 5%;
+    width: 30vw;
     z-index: 2;
 }
 
@@ -63,9 +68,8 @@
 
     .sobreTitulo{
         font-size: 70px;
-        top: 850vw;
-        margin-left: 15%;
-        width: 70%;
+        text-align: center;
+        margin-left: 0%;
     }
     .sobre {
         display: block;
@@ -94,21 +98,5 @@
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-    }
-}
-
-@media (min-width: 1500px) {
-    .sobre p {
-        font-size: 26px;
-        width: 70%;
-        margin: 1vw, 0;
-    }
-}
-
-@media (min-width: 2200px) {
-    .sobre p {
-        font-size: 40px;
-        width: 70%;
-        margin: 1vw, 0;
     }
 }

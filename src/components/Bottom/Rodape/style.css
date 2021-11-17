@@ -1,18 +1,23 @@
 footer {
     text-align: center;
     background-color: #26001e;
-    margin-top: 50px;
     width: 100%;
     padding-top: 1em;
   }
   
   .rodape-img {
-    width: 100%;
+    width: 100vw;
   }
   
   .copyright {
     color: #ffffff;
-    font-family: bebas Neue, cursive;
-    font-size: 20px;
+    font-family: 'lato';
+    font-size: 2vw;
     margin: 0px 0 0;
+  }
+
+  @media (max-width: 768px) {
+    .copyright {
+      font-size: 6vw;
+    }
   }

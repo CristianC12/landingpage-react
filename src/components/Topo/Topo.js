@@ -1,10 +1,11 @@
 import ArtistasConfirmados from "./Artistas/ArtistasConfirmados";
-import Navigation from "./Header";
+/* import Navigation from "./Header/Navigation"; */
+import Navbar from './Header/Nav/Navbar.jsx'
 
 function Topo() {
   return (
     <>
-        <Navigation />
+        <Navbar />
         <ArtistasConfirmados />
     </>
   );

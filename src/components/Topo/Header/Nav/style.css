@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navItem a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    margin-right: 30px;
+    font-weight: bolder;
+    transition: 1s;
+    text-transform: uppercase;
+}
+
+.navItem a:hover {
+    color: #fdc41f;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+    transform: scale(1.08);
+}
+
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+    transition: 1s;
+    vertical-align: top;
+}
+
+.logo img {
+    width: 3.5vw;
+}
+
+.logo:hover{
+    color: white;
+    transform: scale(1.06);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .logo{
+        font-size: 10vw;
+    }
+    .logo img{
+        width:13vw;
+    }
+    .navItem a {
+        font-size: 5vw;
+    }
+}

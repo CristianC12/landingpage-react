@@ -3,8 +3,9 @@ import "./style.css";
 
 function SobreNos() {
   return (
-    <section className="sobreFundo">
-      <h1 class="titulo sobreTitulo" id="sobre">
+    <section className="sobreNos">
+      <a id="sobre" />
+      <h1 class="titulo sobreTitulo">
         Sobre nós:
       </h1>
       <div class="sobre">
