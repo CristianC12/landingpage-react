@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landingpage-react/static/css/main.43c7fefe.chunk.css",
+    "main.css": "/landingpage-react/static/css/main.1d2b4285.chunk.css",
     "main.js": "/landingpage-react/static/js/main.8652ca64.chunk.js",
     "main.js.map": "/landingpage-react/static/js/main.8652ca64.chunk.js.map",
     "runtime-main.js": "/landingpage-react/static/js/runtime-main.01f48239.js",
@@ -12,7 +12,7 @@
     "static/js/3.5c1c995a.chunk.js.map": "/landingpage-react/static/js/3.5c1c995a.chunk.js.map",
     "index.html": "/landingpage-react/index.html",
     "static/css/2.383c0125.chunk.css.map": "/landingpage-react/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.43c7fefe.chunk.css.map": "/landingpage-react/static/css/main.43c7fefe.chunk.css.map",
+    "static/css/main.1d2b4285.chunk.css.map": "/landingpage-react/static/css/main.1d2b4285.chunk.css.map",
     "static/js/2.3d533d77.chunk.js.LICENSE.txt": "/landingpage-react/static/js/2.3d533d77.chunk.js.LICENSE.txt",
     "static/media/backgroundvid.4b6460b5.mp4": "/landingpage-react/static/media/backgroundvid.4b6460b5.mp4",
     "static/media/style.css": "/landingpage-react/static/media/room_black_24dp.c0bb88c8.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.01f48239.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.3d533d77.chunk.js",
-    "static/css/main.43c7fefe.chunk.css",
+    "static/css/main.1d2b4285.chunk.css",
     "static/js/main.8652ca64.chunk.js"
   ]
 }
