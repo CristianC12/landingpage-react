@@ -11,7 +11,7 @@
 
 .tituloLocal {
   position: absolute;
-  font-size: 10vw;
+  font-size: 11vw;
   margin-left: 45%;
   width: 50%;
 }
@@ -90,8 +90,8 @@
     .tituloLocal {
       position: relative;
       font-size: 60px;
-      margin-left: 10%;
-      width: 50%;
+      margin-left: 0%;
+      width: 100%;
     }
 
     .tituloLocal::before{
