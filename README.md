@@ -1,6 +1,12 @@
 # Esse projeto foi feito com react
 
-Caso queira rodar em sua máquina, use: git clone https://github.com/CristianC12/landingpage-react.git, e npm install para baixar os módulos necessários.
+Caso queira rodar em sua máquina, use: 
+
+git clone https://github.com/CristianC12/landingpage-react.git ,  
+
+E em seguida:
+
+npm install para baixar os módulos necessários.
 
 Tendo isso feito, você pode usar:
 
