@@ -11,7 +11,7 @@
 
 .tituloLocal {
   position: absolute;
-  font-size: 11vw;
+  font-size: 10vw;
   margin-left: 45%;
   width: 50%;
 }
@@ -89,9 +89,9 @@
 
     .tituloLocal {
       position: relative;
-      margin-left: 15%;
-      width: 60%;
-      font-size: 65px;
+      font-size: 60px;
+      margin-left: 10%;
+      width: 50%;
     }
 
     .tituloLocal::before{
@@ -125,9 +125,7 @@
     }
     
     .localizacao a button{
-      position: absolute;
       margin-left: 20%;
-      margin-top: -18vw;
       border-radius: 500px;
       width: 60%;
       font-size: 40px ;

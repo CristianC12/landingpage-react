@@ -52,10 +52,10 @@
 
     .tituloCarrossel {
         position: absolute;
-        margin-left: 10%;
-        width: 80%;
+        margin-left: 12.5%;
+        width: 70%;
         color: #eec338;
-        font-size: 30vw;
+        font-size: 25vw;
         font-weight: bolder;
         z-index: 4;
         top: 640vw;

@@ -7,7 +7,7 @@ function Localizacao() {
       <a id="local" />
       <img className="localImg" />
       <h1 class="titulo tituloLocal">
-        localização
+        Localização
       </h1>
       <h2 class="subtituloLocal">
         Venha para Igrejinha
