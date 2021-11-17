@@ -92,5 +92,8 @@
     #Dianho,
     #fernando-posser {
         opacity: 1;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 }
