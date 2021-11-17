@@ -17,17 +17,16 @@
     background-color: white;
     padding-bottom: 5vw;
     margin-top: 5vw;
-    padding-top: 10vw;
 }
 
 .tituloCarrossel {
-    position: absolute;
+    position: relative;
     width: 100%;
     color: #eec338;
     font-size: 15vw;
     font-weight: bolder;
     z-index: 4;
-    top: 50vw;
+    top: 5vw;
 }
 
 .fraseCarrossel h3 {
@@ -36,7 +35,7 @@
     text-shadow: 2px 2px 4px black;
     font-size: 4vw;
 }
-@media (max-width: 999px) {
+@media (max-width: 768px) {
 
 
     #galeria{
@@ -51,17 +50,15 @@
         background-color: white;
         padding-bottom: 5vw;
         margin-top: 40vw;
-        padding-top: 30vw;
     }
 
     .tituloCarrossel {
-        position: absolute;
+        position: relative;
         margin-left: 0%;
         width: 100%;
         color: #eec338;
         font-size: 25vw;
         font-weight: bolder;
         z-index: 4;
-        top: 640vw;
     }
 }

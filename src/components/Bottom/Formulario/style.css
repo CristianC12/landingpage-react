@@ -67,15 +67,37 @@
     background-color: black;
     border: 1px solid white;
   }
+  
+  @media (max-width: 1024px){
+    .enviar {
+      padding: 2vw;
+      font-size: 4vw;
+      width: 40%;
+      margin: 2px 2px 2px 2px;
+    }
+    .input-padrao {
+      display: flex;
+      margin: 5px 5%;
+      padding: 10px 25px;
+      font-size: 4.5vw;
+      width: 85%;
+    }
+    .labelFormulario  {
+      font-size: 5vw;
+    }
+    .tituloContato{
+      font-size: 20vw;
+    }
+  }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 540px) {
 
     #contato{
       top: -15vw;
     }
 
     .enviar {
-      font-size: 20px;
+      font-size: 4vw;
       width: 40%;
       margin: 2px 2px 2px 2px;
     }

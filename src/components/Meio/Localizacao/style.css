@@ -80,15 +80,85 @@
     color: black;
     font-weight: bolder;
     }
+  
+@media (max-width: 1024px){
+  .localizacao a button {
+    font-size:3.5vw;
+  }
+  .tituloLocal {
+    font-size: 11vw;
+  }
+  .subtituloLocal {
+    margin-top: 17vw; 
+    font-size: 4vw;
+  }
+  .localizacao p {
+    font-size: 3vw;
+  }
+  .mapa iframe {
+    height: 45vw;
+  }
+} 
+  
+  @media (max-width: 786px){
+    .localizacao{
+      padding-top: 0vw;
+    }
+    .tituloLocal::before{
+      content: none;
+    }
+    .localImg{
+      content: url('./room_black_24dp-2.svg');
+      position: relative;
+      width: 20%;
+      margin-left: 42%;
+    }
+    .tituloLocal {
+      position: relative;
+      font-size: 20vw;
+      margin-left: 0%;
+      width: 100%;
+    }
+    .mapa iframe {
+      position: relative;
+      top: -10vw;
+      margin-left: 10vw;
+      height:80vw;
+      width: 80vw;
+    }
+    .subtituloLocal {
+      position: relative;
+      margin-left: 15%;
+      width: 70%;
+      color: black;
+      margin-top: 7vw; 
+      top: -12vw;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 5vw;
+    }
+    .localizacao a button{
+      margin-left: 20%;
+      border-radius: 500px;
+      width: 60%;
+      font-size: 5vw ;
+      transition: 1s;
+    }
+    
+    .localizacao p {
+      font-size: 3vw;
+      width: 100%;
+      padding: 5vw 2vw;
+    }
+  }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 540px) {
 
     .localizacao{
       padding-top: 1vw;
     }
 
     .tituloLocal {
-      position: relative;
       font-size: 60px;
       margin-left: 0%;
       width: 100%;

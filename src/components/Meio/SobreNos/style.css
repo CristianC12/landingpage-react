@@ -63,7 +63,21 @@
     content: "\1F37B ";
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px){
+
+    .sobreTitulo {
+        font-size: 19vw;
+    }
+
+    .sobre p {
+        font-size: 3vw; 
+    }
+    .sobre img {
+        width: 150%;
+    }
+}
+
+@media (max-width: 768px) {
 
 
     #sobre {
@@ -82,19 +96,13 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-    .sobre img {
-        margin-right: 0;
-        margin-top: 20px;
-        width: 90%;
-        margin-left: 5%;
-    }
     .sobre p {
         text-align: center;
         font-size: 20px;
         width: 80%;
     }
-    ;
     .sobre img {
+        display: block;
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;

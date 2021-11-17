@@ -72,33 +72,68 @@
     box-shadow: #0084ff 0px 0px 3vw;
   }
   
-  #titulo-video{
-    margin-top: 80px;
+  .tituloVideo{
+    color: white;
+    font-size: 8vw;
   }
+
+  .video2 p {
+    color: #fdc41f;
+    font-family: "lato";
+    font-size: 3vw;
+    text-shadow: 2px 2px 4px black;
+  }
+
   .video2 {
   margin-top: 30px;
-  display: flex;
   align-content: center;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #ed2a44;
+  padding: 1vw 0px;
+  margin-top: 0;
   }
   
   .video2 iframe {
-    margin-top: 30px;
+    width: 50vw; 
+    height: 29vw;
+  }
+
+@media (max-width: 1024px){
+  .membro {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-top-left-radius: 35vw;
+    border-top-right-radius: 3vw;
+    border-bottom-left-radius: 35vw;
+    border-bottom-right-radius: 35vw;
+    border: black double  4px;
+    opacity: 1;
+    width: 45%;
+  }
+  .membro-nome {
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-  }
-  
-  .video h2 {
-    padding-bottom: 2%;
   }
 
+}
   
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
-  
+    
+  .tituloVideo{
+    color: white;
+    font-size: 15vw;
+  }
+
+  .video2 p {
+    font-size: 6vw;
+  }
+
+
   #titulo-nome{
     font-size: 20vw;
   }
@@ -133,17 +168,18 @@
   }
 
   .video2 iframe {
-    margin-top: 30px;
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 80vw; 
+    height: 48vw;
   }
+
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 540px) {
   .membro-nome::before {
     position: relative;
     content: url('github.svg');
     top: 0.4vw;
   }
 }
+
+

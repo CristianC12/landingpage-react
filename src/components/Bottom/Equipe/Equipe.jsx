@@ -9,7 +9,8 @@ let membroFoto = [
 ]
 
 function Equipe() {
-    return(
+    return( 
+      <>
         <section className="time" id="equipe">
         
         <h1 className="titulo" id="titulo-nome">Equipe</h1>
@@ -44,13 +45,13 @@ function Equipe() {
           <h2 className="membro-nome">Leonardo Telles</h2>
         </a>
         </div>
-
-{/*         <h1 className="titulo" id="titulo-video">Explicação</h1>
-        <h2 className="subtitulo">Como montamos a LandingPage?</h2>
-        <div className="video2">
-          <iframe height="315" src="https://www.youtube.com/embed/93d7H5XlwsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> */}
       </section>
+            <div className="video2">
+              <h1 className="titulo tituloVideo">Explicação</h1>
+              <p>Como montamos a LP?</p>
+              <iframe height="315" src="https://www.youtube.com/embed/_SjFh-lr268" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div> 
+        </>
     );
 }
 
