@@ -22,8 +22,7 @@
 
 .tituloCarrossel {
     position: absolute;
-    margin-left: 25%;
-    width: 50%;
+    width: 100%;
     color: #eec338;
     font-size: 15vw;
     font-weight: bolder;
@@ -39,6 +38,11 @@
 }
 @media (max-width: 999px) {
 
+
+    #galeria{
+        top: -45vw;
+    }
+
     .fraseCarrossel h3 {
         font-size: 15vw;
     }
@@ -52,8 +56,8 @@
 
     .tituloCarrossel {
         position: absolute;
-        margin-left: 12.5%;
-        width: 70%;
+        margin-left: 0%;
+        width: 100%;
         color: #eec338;
         font-size: 25vw;
         font-weight: bolder;

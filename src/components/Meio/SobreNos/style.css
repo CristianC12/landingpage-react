@@ -66,6 +66,11 @@
 @media (max-width: 1100px) {
 
 
+    #sobre {
+        top: -15vw;
+    }
+    
+
     .sobreTitulo{
         font-size: 70px;
         text-align: center;
