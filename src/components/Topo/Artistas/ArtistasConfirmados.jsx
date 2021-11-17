@@ -16,12 +16,12 @@ function ArtistasConfirmados() {
         Artistas Confirmados!
       </h1>
       <div className="ArtistasConfirmados_imagens">
-        <a href="https://www.instagram.com/jeanpaulo_campos/" target="_blank">
+        <a href="https://www.instagram.com/feerposser/" target="_blank">
           <img
             src={fotosArtistas[0]}
-            alt="Cirilo"
+            alt="fernando posser"
             width="95%"
-            id="gil-vigor"
+            id="fernando-posser"
           />
         </a>
         <a href="https://www.instagram.com/pefabiodemelo/" target="_blank">
@@ -45,7 +45,7 @@ function ArtistasConfirmados() {
             src={fotosArtistas[3]}
             alt="Dianho"
             width="95%"
-            id="ivete-sangalo"
+            id="Dianho"
           />
         </a>
       </div>

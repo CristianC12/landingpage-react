@@ -38,8 +38,8 @@
 
 #the-rock:hover,
 #fabio-melo:hover,
-#ivete-sangalo:hover,
-#gil-vigor:hover {
+#Dianho:hover,
+#fernando-posser:hover {
     transition: 1s;
     margin: 2%;
     opacity: 1;
@@ -56,6 +56,7 @@
 
     .ArtistasConfirmados_imagens img {
         opacity: 1;
+        border-radius: 5vw;
     }
 
     .ArtistasConfirmados_imagens {
@@ -68,10 +69,10 @@
         list-style: none;
         
     }
-    #the-rock,
-    #fabio-melo,
-    #ivete-sangalo,
-    #gil-vigor {
+    #the-rock:hover,
+    #fabio-melo:hover,
+    #Dianho:hover,
+    #fernando-posser:hover {
         opacity: 1;
     }
 }
