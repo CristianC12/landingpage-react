@@ -16,7 +16,7 @@ Mas caso queira somente acessar, pode fazer através deste link:
 
 ### `https://cristianc12.github.io/landingpage-react/`
 
-https://i.imgur.com/5g9j8Bd.png
+![website](https://i.imgur.com/5g9j8Bd.png)
 
 O site é responsivo com a maioria das telas, somente não é em casos especificos como ipad e ipad pro.
 
