@@ -14,7 +14,7 @@ Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
 Mas caso queira somente acessar, pode fazer através deste link:
 
-### `https://cristianc12.github.io/landingpage-react/`
+## Link: https://cristianc12.github.io/landingpage-react/
 
 ![website](https://i.imgur.com/5g9j8Bd.png)
 
