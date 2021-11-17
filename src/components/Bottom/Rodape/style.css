@@ -11,7 +11,7 @@ footer {
   
   .copyright {
     color: #ffffff;
-    font-family: 'lato';
+    font-family: 'lato', Roboto;
     font-size: 2vw;
     margin: 0px 0 0;
   }

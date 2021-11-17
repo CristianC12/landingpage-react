@@ -33,11 +33,15 @@
 
 .fraseCarrossel h3 {
     color: white;
-    font-family: 'Dancing Script';
+    font-family: 'Dancing Script', cursive;
     text-shadow: 2px 2px 4px black;
-    font-size: 12vw;
+    font-size: 4vw;
 }
 @media (max-width: 999px) {
+
+    .fraseCarrossel h3 {
+        font-size: 15vw;
+    }
 
     .carrosselDeFotos {
         background-color: white;

@@ -10,7 +10,7 @@
   #sub-nome {
     position: relative;
     top: -4.6vw;
-    font-family: "lato", cursive;
+    font-family: "lato", Roboto;
     color: black;
     text-align: center;
     font-size: 2.8vw;
@@ -51,7 +51,7 @@
     margin-right: 6%;
     margin-top: 1vw;
     transition: 0.5s;
-    font-family: "Bebas Neue", cursive;
+    font-family: "Bebas Neue";
     color: #fdc41f;
     font-size: 2.5vw;
     background-color: #ed2a44;
