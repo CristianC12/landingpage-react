@@ -10,10 +10,10 @@ function Formulario() {
           Contato 
         </h1>
         <div className="formulario">
-          <form action="https://api.staticforms.xyz/submit" method="POST" className="venda">
+          <form onSubmit={alert("Formulário enviado!")}action="https://api.staticforms.xyz/submit" method="POST" className="venda">
           <div className="formDiv">
             <input type="hidden" name="accessKey" value="40ee2968-e7ee-4e82-902f-ca715bbcdc90"/>
-            <input type="hidden" name="redirectTo" value="http://localhost:3000/#"/>
+            <input type="hidden" name="redirectTo" value="https://cristianc12.github.io/landingpage-react/"/>
             <label2 className="labelFormulario" for="nomesobrenome">
               Nome e sobrenome
               </label2>
