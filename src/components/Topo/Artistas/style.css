@@ -43,7 +43,7 @@
     opacity: 1;
 }
 
-@media (max-width: 1024px){
+ @media (max-width: 1024px){
     .tituloArtistas{
         position: relative;
         padding-top: 10vw;

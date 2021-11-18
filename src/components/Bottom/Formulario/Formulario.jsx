@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
 
-
 function Formulario() {
-
   return (
     <>
       <section id="formSection">
@@ -15,17 +13,17 @@ function Formulario() {
           <form action="https://api.staticforms.xyz/submit" method="POST" className="venda">
           <div className="formDiv">
             <input type="hidden" name="accessKey" value="40ee2968-e7ee-4e82-902f-ca715bbcdc90"/>
-            <input type="hidden" name="redirectTo" value="https://cristianc12.github.io/landingpage-react/"/>
+            <input type="hidden" name="redirectTo" value="http://localhost:3000/#"/>
             <label2 className="labelFormulario" for="nomesobrenome">
               Nome e sobrenome
+              </label2>
               <input
                 name="name"
                 type="text"
                 id="nomesobrenome"
                 className="input-padrao"
-                required
-              />
-            </label2>
+                maxLength="30"
+                />
 
             <label2 className="labelFormulario" for="email">
               Email
@@ -36,6 +34,8 @@ function Formulario() {
                 className="input-padrao"
                 required
                 placeholder="seuemail@dominio.com"
+                maxLength="50"
+                minLength="2"
               />
             </label2>
 
@@ -48,6 +48,7 @@ function Formulario() {
                 className="input-padrao"
                 required
                 placeholder="(XX) XXXXX-XXXX"
+                maxLength="15"
               />
             </label2>
             </div>
@@ -61,6 +62,7 @@ function Formulario() {
                 className="input-padrao"
                 id="mensagem "
                 required
+                maxLength="250"
               />
             </label2>
             </div>
