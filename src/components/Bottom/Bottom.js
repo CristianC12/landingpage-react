@@ -1,11 +1,12 @@
-import Formulario from "./Formulario";
+/* import Formulario from "./Formulario"; */
 import Equipe from "./Equipe";
+import Mailer from "./Formulario/email";
 import Rodape from "./Rodape";
 
 function Bottom() {
   return (
     <>
-        <Formulario />
+        <Mailer />
         <Equipe />
         <Rodape />
     </>
