@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/landingpage-react/static/css/main.9cc1ebbb.chunk.css",
-    "main.js": "/landingpage-react/static/js/main.50909ce9.chunk.js",
-    "main.js.map": "/landingpage-react/static/js/main.50909ce9.chunk.js.map",
-    "runtime-main.js": "/landingpage-react/static/js/runtime-main.18d8e59f.js",
-    "runtime-main.js.map": "/landingpage-react/static/js/runtime-main.18d8e59f.js.map",
+    "main.css": "/landingpage-react/static/css/main.61d7de98.chunk.css",
+    "main.js": "/landingpage-react/static/js/main.5c96e246.chunk.js",
+    "main.js.map": "/landingpage-react/static/js/main.5c96e246.chunk.js.map",
+    "runtime-main.js": "/landingpage-react/static/js/runtime-main.5178d9a7.js",
+    "runtime-main.js.map": "/landingpage-react/static/js/runtime-main.5178d9a7.js.map",
     "static/css/2.383c0125.chunk.css": "/landingpage-react/static/css/2.383c0125.chunk.css",
-    "static/js/2.1cc9a0e5.chunk.js": "/landingpage-react/static/js/2.1cc9a0e5.chunk.js",
-    "static/js/2.1cc9a0e5.chunk.js.map": "/landingpage-react/static/js/2.1cc9a0e5.chunk.js.map",
-    "static/js/3.40e3f7aa.chunk.js": "/landingpage-react/static/js/3.40e3f7aa.chunk.js",
-    "static/js/3.40e3f7aa.chunk.js.map": "/landingpage-react/static/js/3.40e3f7aa.chunk.js.map",
+    "static/js/2.6bca50af.chunk.js": "/landingpage-react/static/js/2.6bca50af.chunk.js",
+    "static/js/2.6bca50af.chunk.js.map": "/landingpage-react/static/js/2.6bca50af.chunk.js.map",
+    "static/js/3.729bef23.chunk.js": "/landingpage-react/static/js/3.729bef23.chunk.js",
+    "static/js/3.729bef23.chunk.js.map": "/landingpage-react/static/js/3.729bef23.chunk.js.map",
     "index.html": "/landingpage-react/index.html",
     "static/css/2.383c0125.chunk.css.map": "/landingpage-react/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.9cc1ebbb.chunk.css.map": "/landingpage-react/static/css/main.9cc1ebbb.chunk.css.map",
-    "static/js/2.1cc9a0e5.chunk.js.LICENSE.txt": "/landingpage-react/static/js/2.1cc9a0e5.chunk.js.LICENSE.txt",
+    "static/css/main.61d7de98.chunk.css.map": "/landingpage-react/static/css/main.61d7de98.chunk.css.map",
+    "static/js/2.6bca50af.chunk.js.LICENSE.txt": "/landingpage-react/static/js/2.6bca50af.chunk.js.LICENSE.txt",
     "static/media/backgroundvid.4b6460b5.mp4": "/landingpage-react/static/media/backgroundvid.4b6460b5.mp4",
     "static/media/style.css": "/landingpage-react/static/media/room_black_24dp.c0bb88c8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.18d8e59f.js",
+    "static/js/runtime-main.5178d9a7.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.1cc9a0e5.chunk.js",
-    "static/css/main.9cc1ebbb.chunk.css",
-    "static/js/main.50909ce9.chunk.js"
+    "static/js/2.6bca50af.chunk.js",
+    "static/css/main.61d7de98.chunk.css",
+    "static/js/main.5c96e246.chunk.js"
   ]
 }
